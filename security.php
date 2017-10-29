@@ -127,7 +127,7 @@ function sanitize($input)
     );
     foreach ($patterns as $pattern) {
         if (strlen($query_string) > 255 OR strpos(strtolower($query_string), strtolower($pattern)) !== false) {
-		include ("page/blocked.php");
+		include ("blocked.php");
 		exit(1);
 		}
 	}
