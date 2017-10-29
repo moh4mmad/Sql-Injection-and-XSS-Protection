@@ -8,5 +8,4 @@ add this line to your php file (config file recommended to secure all pages) .
 include("security.php");
 ```
 ### Requirements
-1. PHP 5.x or higher version
-2. MySQL 5.x or higher version
+PHP 5.x or higher version
