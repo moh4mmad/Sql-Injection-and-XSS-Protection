@@ -1,11 +1,11 @@
-# Sql Injection and XSS Protection
-This could protect your website from SQLi Attacks (SQL Injection) and XSS Vulnerabilities.
+## What is it?
+This is a simple script written in php to prevent SQLi Attacks (SQL Injection) and XSS Vulnerabilities.
 
-### Installation
+## Usage
 add this line to your php file (config file recommended to secure all pages) .
 ```
 <?php
 include("security.php");
 ```
-### Requirements
+## Requirements
 PHP 5.x or higher version
